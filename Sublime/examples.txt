@@ -1,0 +1,77 @@
+Linking to an Email Address:
+
+<a href="mailto:shay@awesome.com?subject=Reaching%20Out&body=How%20are%20you">Email Me</a>
+%20--> space
+%0A-->line break
+
+
+Opening Links in a New Window:
+
+<a href="http://shayhowe.com/" target="_blank">Shay Howe</a>
+
+
+Linking to Parts of the Same Page:
+
+<body id="top">
+  ...
+  <a href="#top">Back to top</a>
+  ...
+</body>
+
+
+navigation menu(to navigate all pages):
+
+1.
+<header>
+
+  ...
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="speakers.html">Speakers</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="venue.html">Venue</a>
+    <a href="register.html">Register</a>
+  </nav>
+
+</header>
+
+2.
+<footer>
+
+  ...
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="speakers.html">Speakers</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="venue.html">Venue</a>
+    <a href="register.html">Register</a>
+  </nav>
+
+</footer>
+
+3.section part
+<section>
+
+  ...
+
+  <a href="register.html">Register Now</a>
+
+</section>
+
+4.heading in anchor
+<section>
+
+  <section>
+    <a href="speakers.html">
+      <h5>Speakers</h5>
+      <h3>World-Class Speakers</h3>
+    </a>
+    <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+  </section>
+
+  ...
+
+</section>
+
